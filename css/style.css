@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/* Classes e IDs */
+
+#grid-principal {
+   margin: 5%;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(3, minmax(150px, auto));
+   gap: 5%;
+   place-content: center center;
+}
+
+/* .flex {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   /* height: 100vh;
+} */
+
+#titulo-principal {
+   text-align: center;
+   color: rgb(227, 237, 255);
+   background: #091d74;
+   width: 100%;
+   padding-top: 35px;
+   padding-bottom: 35px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   box-shadow: 4px 4px 15px #ffe46a70;
+   position: relative;
+   z-index: 3;
+}
+
+#imagem-principal {
+   width: 100%;
+   border-radius: 0px;
+}
+
+#categorias {
+   grid-column: 1 / -1;
+}
+
+#criador {
+   color: rgb(158, 0, 0);
+}
+
+/* Estilos Gerais */
+
+body {
+   background: #dbe2ff;
+   margin: 0px;
+   font-family: Arial;
+   font-size: 20px;
+}
+
+div {
+   text-align: center;
+}
+
+a {
+   text-decoration: none;
+}
+
+img {
+   width: 100%;
+   border-radius: 4px;
+}
+
+footer {
+   margin-top: 100px;
+   text-align: center;
+}
