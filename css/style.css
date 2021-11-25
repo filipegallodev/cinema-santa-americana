@@ -9,6 +9,7 @@
    grid-template-columns: repeat(2, 1fr);
    grid-template-rows: repeat(3, minmax(150px, 450px));
    gap: 5%;
+   row-gap: 30px;
    place-content: center center;
 }
 
@@ -53,7 +54,7 @@ body {
    background: #dbe2ff;
    margin: 0px;
    font-family: Arial;
-   color: #440000;
+   color: #04003b;
 }
 
 div {
