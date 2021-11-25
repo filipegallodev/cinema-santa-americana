@@ -7,7 +7,7 @@
    display: flex;
    flex-wrap: wrap;
    grid-template-columns: repeat(2, 1fr);
-   grid-template-rows: repeat(3, minmax(150px, 450px));
+   grid-template-rows: repeat(3, minmax(750px, 450px));
    gap: 5%;
    row-gap: 30px;
    place-content: center center;
